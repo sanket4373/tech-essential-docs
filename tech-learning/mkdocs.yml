@@ -1,6 +1,6 @@
 # Project Information
 site_name: Technology, Tutorials and me...
-site_description: This website is a place to archive and share what i have learned from latest computer technology
+site_description: This website is a place to archive and share what i have learned from latest computer technology 
 site_author: Sanket Lawangare
 site_url: https://pages.github.ibm.com/sanket4373/tech-essential-docs
 copyright: Copyright Sanket Lawangare©
@@ -25,9 +25,6 @@ nav:
     - kubernetes/index.md
   - Golang:
     - golang/index.md
-  - GitHub:
-    - github-workflow/index.md
-    - github-workflow/forking-a-repo.md
 
 # Configuration
 theme:
