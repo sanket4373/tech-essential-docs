@@ -15,7 +15,7 @@ edit_uri: edit/master/docs/
 nav:
   - Home:
     - index.md
-    - home/about.md
+    - home/contributing.md
   - Docker:
     - docker/install_run_docker.md
 
