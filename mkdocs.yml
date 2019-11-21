@@ -1,6 +1,6 @@
 # Project Information
-site_name: Technology, Tutorials and me...
-site_description: This website is a place to share what i have learned from working with latest computer technology 
+site_name: TechTutorials
+site_description: This website is a place to share what i have learned from working with latest computer technologies
 site_author: Sanket Lawangare
 site_url: https://pages.github.com/sanket4373/tech-essential-docs
 copyright: Copyright Sanket Lawangare©
@@ -8,7 +8,7 @@ copyright: Copyright Sanket Lawangare©
 #Repository Information
 repo_name: sanket4373/tech-essential-docs
 repo_url: https://github.com/sanket4373/tech-essential-docs
-remote_name: upstream
+remote_name: origin
 edit_uri: edit/master/docs/
 
 # Page tree
