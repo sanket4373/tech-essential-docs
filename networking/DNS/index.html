@@ -13,7 +13,7 @@
         <meta name="description" content="This website is a place to share what i have learned from working with latest computer technologies">
       
       
-        <link rel="canonical" href="https://pages.github.com/sanket4373/tech-essential-docs/home/contributing/">
+        <link rel="canonical" href="https://pages.github.com/sanket4373/tech-essential-docs/networking/DNS/">
       
       
         <meta name="author" content="Sanket Lawangare">
@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#installation" tabindex="1" class="md-skip">
+      <a href="#what-is-a-domain-name-system" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -117,7 +117,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Contributing
+                DNS
               
             </span>
           
@@ -196,7 +196,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../.." title="Home" class="md-tabs__link md-tabs__link--active">
+        <a href="../.." title="Home" class="md-tabs__link">
           Home
         </a>
       
@@ -222,7 +222,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="../../networking/basic_concepts/" title="Networking" class="md-tabs__link">
+        <a href="../basic_concepts/" title="Networking" class="md-tabs__link md-tabs__link--active">
           Networking
         </a>
       
@@ -277,12 +277,10 @@
       
       
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+  <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" checked>
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
     
     <label class="md-nav__link" for="nav-1">
       Home
@@ -310,59 +308,11 @@
           
           
 
-  
 
-
-  <li class="md-nav__item md-nav__item--active">
-    
-    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-    
-    
-      <label class="md-nav__link md-nav__link--active" for="__toc">
-        Contributing
-      </label>
-    
-    <a href="./" title="Contributing" class="md-nav__link md-nav__link--active">
+  <li class="md-nav__item">
+    <a href="../../home/contributing/" title="Contributing" class="md-nav__link">
       Contributing
     </a>
-    
-      
-<nav class="md-nav md-nav--secondary">
-  
-  
-  
-    <label class="md-nav__title" for="__toc">Table of contents</label>
-    <ul class="md-nav__list" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#installation" title="Installation" class="md-nav__link">
-    Installation
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#previewing-docs" title="Previewing docs" class="md-nav__link">
-    Previewing docs
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#publishing-docs" title="Publishing docs" class="md-nav__link">
-    Publishing docs
-  </a>
-  
-</li>
-      
-      
-      
-      
-      
-    </ul>
-  
-</nav>
-    
   </li>
 
         
@@ -411,10 +361,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
     
     <label class="md-nav__link" for="nav-3">
       Networking
@@ -432,7 +384,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../networking/basic_concepts/" title="Basic concepts" class="md-nav__link">
+    <a href="../basic_concepts/" title="Basic concepts" class="md-nav__link">
       Basic concepts
     </a>
   </li>
@@ -444,7 +396,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../../networking/commands_cheatsheet/" title="Commands cheatsheet" class="md-nav__link">
+    <a href="../commands_cheatsheet/" title="Commands cheatsheet" class="md-nav__link">
       Commands cheatsheet
     </a>
   </li>
@@ -454,11 +406,79 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="../../networking/DNS/" title="DNS" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        DNS
+      </label>
+    
+    <a href="./" title="DNS" class="md-nav__link md-nav__link--active">
       DNS
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-a-domain-name-system" title="What is a Domain Name System?" class="md-nav__link">
+    What is a Domain Name System?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-record" title="A-Record:" class="md-nav__link">
+    A-Record:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-resolver" title="The Resolver:" class="md-nav__link">
+    The Resolver:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#c-name-or-fqdn" title="C-Name or FQDN:" class="md-nav__link">
+    C-Name or FQDN:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-domain" title="Search Domain:" class="md-nav__link">
+    Search Domain:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -486,23 +506,43 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installation" title="Installation" class="md-nav__link">
-    Installation
+  <a href="#what-is-a-domain-name-system" title="What is a Domain Name System?" class="md-nav__link">
+    What is a Domain Name System?
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a-record" title="A-Record:" class="md-nav__link">
+    A-Record:
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#previewing-docs" title="Previewing docs" class="md-nav__link">
-    Previewing docs
+        
+          <li class="md-nav__item">
+  <a href="#the-resolver" title="The Resolver:" class="md-nav__link">
+    The Resolver:
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#publishing-docs" title="Publishing docs" class="md-nav__link">
-    Publishing docs
+        
+          <li class="md-nav__item">
+  <a href="#c-name-or-fqdn" title="C-Name or FQDN:" class="md-nav__link">
+    C-Name or FQDN:
   </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#search-domain" title="Search Domain:" class="md-nav__link">
+    Search Domain:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -522,55 +562,44 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/sanket4373/tech-essential-docs/edit/master/docs/home/contributing.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/sanket4373/tech-essential-docs/edit/master/docs/networking/DNS.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                  <h1>Contributing</h1>
+                  <h1>DNS</h1>
                 
-                <h2 id="installation">Installation<a class="headerlink" href="#installation" title="Permanent link">&para;</a></h2>
-<p>To build and preview this site, you must have the following packages installed:</p>
+                <h3 id="what-is-a-domain-name-system">What is a Domain Name System?<a class="headerlink" href="#what-is-a-domain-name-system" title="Permanent link">&para;</a></h3>
+<p>According to this <a href="https://www.digitalocean.com/community/tutorials/an-introduction-to-dns-terminology-components-and-concepts">article</a>, The domain name system, more commonly known as “DNS” is the networking system in place that allows us to resolve human-friendly names to unique addresses.</p>
+<p>In short, DNS tranlates a hostname into an IP address for that host.</p>
+<h4 id="a-record">A-Record:<a class="headerlink" href="#a-record" title="Permanent link">&para;</a></h4>
+<p>It is used to find the address of a computer connected to the internet from a name (domain name). In other words, The "A” record is used to map a host to an IPv4 IP address</p>
+<p><code>Domain Name ---&gt; Registrar ---&gt; IP Address</code></p>
 <ul>
-<li><a href="https://github.com/mkdocs/mkdocs">mkdocs/mkdocs</a>: the site generator</li>
-<li><a href="https://github.com/squidfunk/mkdocs-material">squidfunk/mkdocs-material</a>: the Material theme for MkDocs</li>
-<li><a href="https://github.com/facelessuser/pymdown-extensions">facelessuser/pymdown-extensions</a>: a Python Markdown extension bundle</li>
+<li>
+<p>If DNS goes down your site can't be reached by users.</p>
+</li>
+<li>
+<p>DNS records expires</p>
+</li>
+<li>
+<p>DNS is part of the security mechanism for HTTP which includes SSL encryption and cookie privacy</p>
+</li>
+<li>
+<p>DNS record have a TTL (Time to Live) which tells the caches on how long to cache them for</p>
+</li>
 </ul>
-<p>If you don't want to install the packages locally, use the official <a href="https://hub.docker.com/r/squidfunk/mkdocs-material/">Docker image</a>, which includes everything you need to preview, build, and deploy the documentation site.</p>
-<div class="codehilite"><pre><span></span>docker pull squidfunk/mkdocs-material
-</pre></div>
-
-<p>For more installation options, see
-<a href="http://squidfunk.github.io/mkdocs-material/">http://squidfunk.github.io/mkdocs-material/</a>.</p>
-<h2 id="previewing-docs">Previewing docs<a class="headerlink" href="#previewing-docs" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<p>Fork this repository.</p>
-</li>
-<li>
-<p>Start the live development server.
-    <div class="codehilite"><pre><span></span>docker run --rm -it -p <span class="m">8000</span>:8000 -v <span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>:/docs squidfunk/mkdocs-material
-</pre></div></p>
-</li>
-<li>
-<p>Add new files and save your changes.</p>
-</li>
-<li>Navigate to <a href="http://localhost:8000/">http://localhost:8000/</a> to review your updates.</li>
-</ol>
-<h2 id="publishing-docs">Publishing docs<a class="headerlink" href="#publishing-docs" title="Permanent link">&para;</a></h2>
-<ol>
-<li>
-<p>Open a pull request with your changes.</p>
-</li>
-<li>
-<p>After your PR is merged, build the static site files.
-    <div class="codehilite"><pre><span></span>docker run --rm -it -v <span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>:/docs squidfunk/mkdocs-material build
-</pre></div></p>
-</li>
-<li>
-<p>Deploy the documentation site to GitHub Pages.
-    <div class="codehilite"><pre><span></span>docker run --rm -it -v ~/.ssh:/root/.ssh -v <span class="si">${</span><span class="nv">PWD</span><span class="si">}</span>:/docs squidfunk/mkdocs-material gh-deploy
-</pre></div></p>
-</li>
-</ol>
+<h4 id="the-resolver">The Resolver:<a class="headerlink" href="#the-resolver" title="Permanent link">&para;</a></h4>
+<p>The DNS client code is built into every OS.</p>
+<h4 id="c-name-or-fqdn">C-Name or FQDN:<a class="headerlink" href="#c-name-or-fqdn" title="Permanent link">&para;</a></h4>
+<p>It is used to specify that a domain name is an alias for another domain. 
+example <code>www.github.com</code> is an c-name or alias for <code>github.com</code></p>
+<h4 id="search-domain">Search Domain:<a class="headerlink" href="#search-domain" title="Permanent link">&para;</a></h4>
+<p>A setting in the resolver configuration that makes the resolver look up names inside a domain</p>
+<p>example of DNS worker in action: </p>
+<ul>
+<li><code>A</code> record for <code>www.google.com</code> can be found on the <code>name server</code> for <code>www.google.com</code>.</li>
+<li><code>NS</code> record for <code>www.google.com</code> resides in the <code>com</code> server which is a `gTLD (Global Top level Domain)</li>
+<li>The <code>NS</code> for <code>.com</code> are stored in the root servers </li>
+</ul>
                 
                   
                 
@@ -591,7 +620,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../.." title="Welcome" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../commands_cheatsheet/" title="Commands cheatsheet" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -600,25 +629,11 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Welcome
+                Commands cheatsheet
               </span>
             </div>
           </a>
         
-        
-          <a href="../../docker/install_run_docker/" title="Install run docker" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
-            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
-              <span class="md-flex__ellipsis">
-                <span class="md-footer-nav__direction">
-                  Next
-                </span>
-                Install run docker
-              </span>
-            </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
-          </a>
         
       </nav>
     </div>
