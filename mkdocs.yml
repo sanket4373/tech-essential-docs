@@ -3,7 +3,6 @@ site_name: TechTutorials
 site_description: This website is a place to share what i have learned from working with latest computer technologies
 site_author: Sanket Lawangare
 site_url: https://pages.github.com/sanket4373/tech-essential-docs
-copyright: Copyright Sanket Lawangare©
 
 #Repository Information
 repo_name: sanket4373/tech-essential-docs
@@ -18,6 +17,10 @@ nav:
     - home/contributing.md
   - Docker:
     - docker/install_run_docker.md
+  - Networking:
+    - networking/basic_concepts.md
+    - networking/commands_cheatsheet.md  
+    - networking/DNS.md  
 
 # Configuration
 theme:
