@@ -15,12 +15,21 @@ nav:
   - Home:
     - index.md
     - home/contributing.md
-  - Docker:
-    - docker/install_run_docker.md
+    - home/useful_tech_topics_links.md  
+    - home/interesting_tech_reads.md
   - Networking:
     - networking/basic_concepts.md
     - networking/commands_cheatsheet.md  
-    - networking/DNS.md  
+    - networking/DNS.md
+  - HTTP:
+    - http/protocol_basics.md  
+  - Docker:
+    - docker/install_run_docker.md
+  - Databases:
+    - databases/sql/introduction.md   
+    - databases/sql/sql_statements.md
+  - Algorithms:
+    - algorithms/binary_search.md    
 
 # Configuration
 theme:
