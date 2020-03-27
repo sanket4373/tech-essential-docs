@@ -19,14 +19,19 @@
 
 ### HTTPs protocol related
 
-- HTTP Basics 1: https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177
-- HTTP Basics 2: https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155
-- Web Caching basics: https://www.digitalocean.com/community/tutorials/web-caching-basics-terminology-http-headers-and-caching-strategies
-- Troubleshoot HTTPS Error codes: https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-http-error-codes
+- How the web works: 
+  https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works
+  https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155
+- HTTP basics: https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+- Web Caching basics: https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching
+- HTTP Cookies: https://developer.mozilla.org/en-US/docs/Web/HTTP/Cookies
+- Troubleshoot HTTPS error codes: https://www.digitalocean.com/community/tutorials/how-to-troubleshoot-common-http-error-codes
+
 
 
 ### Linux Related
 
+- Linux kernel expained in a fun way: https://www.cyberciti.biz/link/linux-kernel-explained-how-does-the-kernel-work/
 
 ### Microservices Related
 

@@ -17,23 +17,30 @@ http://squidfunk.github.io/mkdocs-material/
 
 ## Previewing docs
 
-1. Fork this repository.
-2. Start the live development server.
+1. Fork and clone this repository.
 
-    
-        docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
-    
+2. Start the live development server from the project root.
+
+    ```sh
+    make serve
+    ```
+
 3. Add new files and save your changes.
 4. Navigate to http://localhost:8000/ to review your updates.
 
 ## Publishing docs
 
-1. Open a pull request with your changes.
-2. After your PR is merged, build the static site files.
-    
-        docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
-    
+1. Push your changes to the upstream `master` branch.
+
+2. Build the static site files.
+
+    ```sh
+    make build
+    ```
+
 3. Deploy the documentation site to GitHub Pages.
-    
-        docker run --rm -it -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-material gh-deploy
+
+    ```sh
+    make publish
+    ```
     

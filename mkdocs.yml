@@ -23,6 +23,7 @@ nav:
     - networking/DNS.md
   - HTTP:
     - http/protocol_basics.md  
+    - http/webcaching_basics.md
   - Docker:
     - docker/install_run_docker.md
   - Databases:
@@ -30,6 +31,10 @@ nav:
     - databases/sql/sql_statements.md
   - Algorithms:
     - algorithms/binary_search.md    
+  - Github:
+    - github/linking_remote_n_local_repos.md
+    - github/rebase_a_branch.md
+    - github/updating_code_on_branch.md  
 
 # Configuration
 theme:

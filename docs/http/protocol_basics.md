@@ -1,3 +1,5 @@
+## HTTP Basics
+
 - HTTP is an application layer protocol over TCP which is a transport layer protocol, which in turn is over IP.
 - A connection must be established between the client and server before they can communicate with each other, and HTTP uses the reliable TCP transport protocol to make this connection.
 - By default, web traffic uses TCP port 80. 
@@ -9,8 +11,8 @@
 - On a client, an HTTP application is identified by a <IP, port> tuple. Establishing a connection between two endpoints is a multi-step process and involves the following:
 
 1. resolve IP address from host name via DNS
-2. establish a connection with the server
-3. send a request
+2. establish a TCP connection with the server using 3-way handshake
+3. send an HTTP request
 4. wait for a response
 5. close connection
 
