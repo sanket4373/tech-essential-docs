@@ -1,5 +1,3 @@
-## Updating your branch
-
 #### Creating your own branch for a new feature/bugfix  
 
     
@@ -7,7 +5,7 @@
     $ git checkout -b <branch-name> (this creates a new branch)
     $ git branch  (To make sure you are working on the desired branch)
     $ git add <file_name> (stage all your files)
-    $ git commit -s (or -v)
+    $ git commit -s (or -m)
     $ git push --set-upstream origin <branch_name>
 
 #### updating your PR 
