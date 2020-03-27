@@ -91,7 +91,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#updating-your-branch" tabindex="1" class="md-skip">
+      <a href="#creating-your-own-branch-for-a-new-featurebugfix" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -699,36 +699,23 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#updating-your-branch" title="Updating your branch" class="md-nav__link">
-    Updating your branch
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#creating-your-own-branch-for-a-new-featurebugfix" title="Creating your own branch for a new feature/bugfix" class="md-nav__link">
     Creating your own branch for a new feature/bugfix
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#updating-your-pr" title="updating your PR" class="md-nav__link">
     updating your PR
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#add-your-commit-message-with-whatever-changes-you-have-made-and-save-it-and-push-it-to-your-branch" title="Add your commit message with whatever changes you have made and save it and push it to your branch" class="md-nav__link">
     Add your commit message with whatever changes you have made and save it and push it to your branch
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -767,36 +754,23 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#updating-your-branch" title="Updating your branch" class="md-nav__link">
-    Updating your branch
-  </a>
-  
-    <nav class="md-nav">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#creating-your-own-branch-for-a-new-featurebugfix" title="Creating your own branch for a new feature/bugfix" class="md-nav__link">
     Creating your own branch for a new feature/bugfix
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#updating-your-pr" title="updating your PR" class="md-nav__link">
     updating your PR
   </a>
   
 </li>
-        
-          <li class="md-nav__item">
+      
+        <li class="md-nav__item">
   <a href="#add-your-commit-message-with-whatever-changes-you-have-made-and-save-it-and-push-it-to-your-branch" title="Add your commit message with whatever changes you have made and save it and push it to your branch" class="md-nav__link">
     Add your commit message with whatever changes you have made and save it and push it to your branch
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -821,13 +795,12 @@
                 
                   <h1>Updating code on branch</h1>
                 
-                <h2 id="updating-your-branch">Updating your branch<a class="headerlink" href="#updating-your-branch" title="Permanent link">&para;</a></h2>
-<h4 id="creating-your-own-branch-for-a-new-featurebugfix">Creating your own branch for a new feature/bugfix<a class="headerlink" href="#creating-your-own-branch-for-a-new-featurebugfix" title="Permanent link">&para;</a></h4>
+                <h4 id="creating-your-own-branch-for-a-new-featurebugfix">Creating your own branch for a new feature/bugfix<a class="headerlink" href="#creating-your-own-branch-for-a-new-featurebugfix" title="Permanent link">&para;</a></h4>
 <div class="codehilite"><pre><span></span>$ git remote -v (To check if you have a local fork and a upstream set up) 
 $ git checkout -b &lt;branch-name&gt; (this creates a new branch)
 $ git branch  (To make sure you are working on the desired branch)
 $ git add &lt;file_name&gt; (stage all your files)
-$ git commit -s (or -v)
+$ git commit -s (or -m)
 $ git push --set-upstream origin &lt;branch_name&gt;
 </pre></div>
 
