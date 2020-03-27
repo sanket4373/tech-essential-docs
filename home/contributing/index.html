@@ -810,12 +810,13 @@
 <a href="http://squidfunk.github.io/mkdocs-material/">http://squidfunk.github.io/mkdocs-material/</a></p>
 <h2 id="previewing-docs">Previewing docs<a class="headerlink" href="#previewing-docs" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Fork this repository.</li>
 <li>
-<p>Start the live development server.</p>
-<div class="codehilite"><pre><span></span>docker run --rm -it -p 8000:8000 -v ${PWD}:/docs squidfunk/mkdocs-material
+<p>Fork and clone this repository.</p>
+</li>
+<li>
+<p>Start the live development server from the project root.</p>
+<div class="codehilite"><pre><span></span>make serve
 </pre></div>
-
 
 </li>
 <li>
@@ -825,19 +826,19 @@
 </ol>
 <h2 id="publishing-docs">Publishing docs<a class="headerlink" href="#publishing-docs" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Open a pull request with your changes.</li>
 <li>
-<p>After your PR is merged, build the static site files.</p>
-<div class="codehilite"><pre><span></span>docker run --rm -it -v ${PWD}:/docs squidfunk/mkdocs-material build
+<p>Push your changes to the upstream <code>master</code> branch.</p>
+</li>
+<li>
+<p>Build the static site files.</p>
+<div class="codehilite"><pre><span></span>make build
 </pre></div>
-
 
 </li>
 <li>
 <p>Deploy the documentation site to GitHub Pages.</p>
-<div class="codehilite"><pre><span></span>docker run --rm -it -v ~/.ssh:/root/.ssh -v ${PWD}:/docs squidfunk/mkdocs-material gh-deploy
+<div class="codehilite"><pre><span></span>make publish
 </pre></div>
-
 
 </li>
 </ol>
