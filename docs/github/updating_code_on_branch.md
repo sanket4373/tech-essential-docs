@@ -3,7 +3,8 @@
 #### Creating your own branch for a new feature/bugfix  
 
     
-    $ git remote -v (To check if you have a local fork and a upstream set up)git $ checkout -b <branch-name> (this creates a new branch)
+    $ git remote -v (To check if you have a local fork and a upstream set up) 
+    $ git checkout -b <branch-name> (this creates a new branch)
     $ git branch  (To make sure you are working on the desired branch)
     $ git add <file_name> (stage all your files)
     $ git commit -s (or -v)
