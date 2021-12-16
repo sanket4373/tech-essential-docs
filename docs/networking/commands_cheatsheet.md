@@ -54,5 +54,23 @@ A sudden increase in packet loss or response time is often an indication of a ba
 The results are usually reported as round-trip-response times in miliseconds and the percentage of packetloss.
 
 
+##### 6. netstat:
+command used to get network statistics like active connections to your device
 
+    - show all active connections
+    netstat -a
+   
+    - show binaries
+    netstat -b
+    
+    - do not resolve names
+    netstat -n
 
+##### 6. nslookup:
+command is used to look up DNS server information
+    
+    - find an name
+    nslookup 8.8.8.8
+    
+    - find an ip address
+    nslookup www.google.com
